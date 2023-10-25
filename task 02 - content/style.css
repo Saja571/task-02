@@ -1,0 +1,155 @@
+body {
+  background-color: #d8dade;
+
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.wave {
+  font-size: 26px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 75% 75%, 50% 100%, 25% 75%, 0% 50%);
+  animation: waveAnimation 8s infinite;
+}
+
+@keyframes waveAnimation {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.border-color{
+  border: 2px solid rgb(0, 0, 0);
+}
+
+h1 {
+  text-align:center;
+  font-weight: 700px;
+  
+}
+
+img{
+  width: 400px;
+  height: 300px;
+}
+
+.preview {
+  width: 15cm;
+  height: 15cm;
+}
+
+label{
+  font-size: 18px;
+}
+
+input{
+  margin-bottom: 12px;
+  margin-top: 12px;
+  color: rgb(9, 9, 9);
+  
+}
+
+.input {
+  width: 100%;
+}
+
+.label-section {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.video-preview {
+  width: 15cm;
+  height: auto;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-section{
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+.data-container {
+  margin-top: 20px;
+}
+
+.data-section {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: rgb(163, 212, 247);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.font-color {
+  color: #333;
+}
+
+
+.card-header {
+  background-color: #fffefe;
+  padding: 10px;
+  border-radius: 6px;
+ 
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-body {
+  margin-top: 10px;
+} 
+
+@media screen and (min-width:768px) {
+  .top-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  h1 {
+      margin-right: 30px;
+  }
+}
